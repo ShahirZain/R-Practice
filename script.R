@@ -1,0 +1,6 @@
+dummy <- read.csv("SalesRecords.csv")
+str(dummy)
+head(dummy)
+tail(dummy)
+df4 <- read.csv("SalesRecords.csv", stringsAsFactors = FALSE)
+head(dummy$X3)
